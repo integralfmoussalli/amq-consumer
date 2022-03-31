@@ -1,4 +1,4 @@
-package com.demo.config;
+package com.demo.amqconsumer.config;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.spring.boot.CamelContextConfiguration;

@@ -1,7 +1,7 @@
-package com.demo.processor;
+package com.demo.amqconsumer.processor;
 
-import com.demo.model.SampleMessage;
-import com.demo.model.SampleResponse;
+import com.demo.amqconsumer.model.SampleMessage;
+import com.demo.amqconsumer.model.SampleResponse;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.demo.model;
+package com.demo.amqconsumer.model;
 
 import lombok.Getter;
 import lombok.Setter;

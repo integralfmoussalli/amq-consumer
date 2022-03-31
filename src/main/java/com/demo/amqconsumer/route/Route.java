@@ -1,14 +1,12 @@
-package com.demo.route;
+package com.demo.amqconsumer.route;
 
-import com.demo.model.SampleMessage;
-import com.demo.model.SampleResponse;
-import com.demo.processor.SampleResponseProcessor;
+import com.demo.amqconsumer.model.SampleMessage;
+import com.demo.amqconsumer.model.SampleResponse;
+import com.demo.amqconsumer.processor.SampleResponseProcessor;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.jackson.JacksonDataFormat;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.awt.image.SampleModel;
 
 @Component
 public class Route extends RouteBuilder {
