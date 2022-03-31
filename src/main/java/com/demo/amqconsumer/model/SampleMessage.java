@@ -7,23 +7,23 @@ import lombok.Setter;
 @Setter
 
 public class SampleMessage {
-    String Name;
-    String Colour;
+    String name;
+    String colour;
 
     @Override
     public String toString() {
         return "MessageResponse{" +
-                "Name='" + Name + '\'' +
-                ", Title='" + Colour + '\'' +
+                "Name='" + name + '\'' +
+                ", Title='" + colour + '\'' +
                 '}';
     }
 
     public SampleMessage(){
     }
 
-    public SampleMessage(String name, String title) {
-        this.Name = name;
-        this.Colour = title;
+    public SampleMessage(String name, String colour) {
+        this.name = name;
+        this.colour = colour;
     }
 
 }

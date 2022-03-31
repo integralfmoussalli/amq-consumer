@@ -23,6 +23,6 @@ public class Route extends RouteBuilder {
                 .unmarshal(stringFormat)
                 .process(sampleResponseProcessor)
                 .marshal(jsonFormat)
-                .log("{body}");
+                .log("${body}");
     }
 }
