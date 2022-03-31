@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AmqConsumerApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(AmqConsumerApplication.class, args);
 	}
 
